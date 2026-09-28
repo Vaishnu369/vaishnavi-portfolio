@@ -1,0 +1,77 @@
+.pb-hero{
+  min-height:100vh;
+  display:grid;
+  grid-template-columns:1fr 420px;
+  gap:40px;
+  align-items:center;
+  padding:50px 80px 30px 80px;
+  color:#cbd5e1;
+  background:linear-gradient(180deg,#000 0%, #070707 100%);
+  font-family: 'Poppins', sans-serif;
+  text-align:left;
+}
+.pb-hero__intro{
+  font-size:28px;
+  color:#fff;
+  margin:0 0 8px 0;
+}
+.pb-hero__name{
+  font-size:64px;
+  margin:0 0 8px 0;
+  color:#fff;
+}
+.pb-hero__role{
+  font-size:28px;
+  color:#8a8a8a;
+  margin:0 0 18px 0;
+}
+.pb-hero__role span{color:#8a2be2; font-weight:700}
+.pb-hero__desc{
+  max-width:620px;
+  line-height:1.8;
+  color:#9aa2a9;
+}
+.pb-hero__content{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-self:start;
+}
+.pb-hero__btn{
+  display:inline-block;
+  margin-top:26px;
+  padding:18px 40px;
+  border-radius:40px;
+  background:linear-gradient(90deg,#ff3fd1,#8a2be2);
+  color:#fff;
+  text-decoration:none;
+  font-weight:700;
+}
+.pb-hero__photo{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.pb-hero__photo-inner{
+  width:360px;
+  height:360px;
+  border-radius:50%;
+  padding:6px;
+  background:conic-gradient(#7b2be2, #ff3fd1);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.pb-hero__photo-inner img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:50%;
+  background:#222;
+}
+
+@media(max-width:900px){
+  .pb-hero{grid-template-columns:1fr; padding:120px 28px;}
+  .pb-hero__photo{margin-top:40px}
+  .pb-hero__name{font-size:44px}
+}
