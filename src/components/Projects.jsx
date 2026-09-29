@@ -9,32 +9,25 @@ import zpadmin from "../assets/projects/zpadmin.png";
 
 const projectsData = [
   {
-    title: "Rail Assist",
-    date: "Jan 2026 – April 2026",
+    title: "RentEasy",
+    date: "Jan 2026 – Present",
     categories: ["WEB"],
     img: smartSketchImg,
     desc:
-      "A railway assistance platform that enables passengers to book porters, calculate fares, verify partners, and manage service requests through a centralized web application.",
-    github: "https://github.com/Anjalik1234/coolie-production",
+      "A full-stack rental marketplace that enables users to list, browse, and rent tools, gadgets, and furniture with secure authentication, rental management, real-time communication, and automated notifications.",
+    github: "https://github.com/KrushnaHarde/rentEasy.git",
   },
+
   {
-    title: "AI Teaching Assistant using (RAG)",
-    date: "Oct 2025 – Dec 2025",
-    categories: ["DS"],
+    title: "StrideUp",
+    date: "Jan 2025 – May 2025",
+    categories: ["MACHINE", "LIVE"],
     img: eHealthImg,
     desc:
-      "An AI-powered learning assistant that searches lecture videos to find relevant topics, provides context-aware answers with exact timestamps, and recommends topics based on the learner’s proficiency.",
-    github: "https://github.com/Anjalik1234/AI-teaching-assistant",
+      "An AI-powered fitness platform that provides workout management, diet planning, fitness tracking, and personalized recommendations using a Scikit-learn based recommendation service with BMR/TDEE calorie calculations.",
+    github: "https://strideup.onrender.com",
   },
-  {
-    title: "SecureOps AI",
-    date: "May 2026 – July 2026",
-    categories: ["MACHINE"],
-    img: careerHubImg,
-    desc:
-      "An AI-powered infrastructure monitoring platform that audits server security, tracks system health, detects anomalies, and provides automated remediation for security issues.",
-    github: "https://github.com/Anjalik1234/DeepTrace-AI",
-  },
+
   {
     title: "School Website ZP SATARA",
     date: "Jan 2026 – April 2026",
@@ -62,8 +55,8 @@ const Projects = () => {
     filter === "ALL"
       ? projectsData
       : projectsData.filter((project) =>
-          project.categories.includes(filter)
-        );
+        project.categories.includes(filter)
+      );
 
   return (
     <section className="projects-section" id="projects">
@@ -75,7 +68,7 @@ const Projects = () => {
 
       {/* Filter Tabs */}
       <div className="project-filters">
-        {["ALL", "WEB", "DS", "MACHINE", "LIVE"].map((item) => (
+        {["ALL", "WEB", "MACHINE", "LIVE"].map((item) => (
           <button
             key={item}
             className={filter === item ? "active" : ""}
@@ -84,10 +77,10 @@ const Projects = () => {
             {item === "DS"
               ? "Data Science"
               : item === "MACHINE"
-              ? "Machine Learning"
-              : item === "LIVE"
-              ? "Live Projects"
-              : item}
+                ? "Machine Learning"
+                : item === "LIVE"
+                  ? "Live Projects"
+                  : item}
           </button>
         ))}
       </div>

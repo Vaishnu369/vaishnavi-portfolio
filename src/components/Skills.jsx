@@ -21,7 +21,7 @@ function Skills() {
     },
     {
       title: 'Tools & Technologies',
-      skills: ['Git', 'GitHub', 'Postman', 'Jupyter Lab', 'Jupyter Notebook', 'Figma', 'Canva']
+      skills: ['Git', 'GitHub', 'Postman', 'Jupyter Lab', 'Jupyter Notebook',  'Canva']
     },
     {
       title: 'Coursework',

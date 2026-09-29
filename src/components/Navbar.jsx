@@ -9,7 +9,7 @@ function Navbar() {
         href="/"
         style={{ textDecoration: "none" }}
       >
-        Anjali.
+        Vaishnavi.
       </a>
 
       <nav className="pb-navbar__nav">
@@ -23,7 +23,7 @@ function Navbar() {
       <div className="pb-navbar__actions">
         <a
           className="pb-navbar__cta"
-          href="https://github.com/Anjalik1234"
+          href="https://github.com/Vaishnu369"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -31,7 +31,7 @@ function Navbar() {
         </a>
         <a
           className="pb-navbar__cta"
-          href="https://www.linkedin.com/in/anjali-kale-b87677276/"
+          href="https://www.linkedin.com/in/vaishnavi-kamble-966b95290"
           target="_blank"
           rel="noopener noreferrer"
         >

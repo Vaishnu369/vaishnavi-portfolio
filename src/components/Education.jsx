@@ -1,37 +1,37 @@
 import React from "react";
 import "./Education.css";
 import pict from "../assets/pict_logo.png";
-import bjs from "../assets/bjs_logo.png";
-import school from "../assets/school_logo.png";
+import sgm from "../assets/sgm.jpeg";
+import school from "../assets/school.png";
 
 const educationData = [
   {
     title: "Pune Institute of Computer Technology (PICT)",
-    degree: "Bachelor of Engineering - BE, Information Technology Engineering",
+    degree: "Bachelor of Engineering - BE, Computer Engineering",
     date: "Sept 2023 – Jul 2027",
-    grade: "9.39 CGPA",
+    grade: "8.663 CGPA",
     desc:
-      "I am currently pursuing a Bachelor's degree in IT Engineering at PICT, Pune. I have completed 5 semesters and have taken courses in Data Structures, Algorithms, OOP, DBMS, OS, and Computer Networks.",
+      "I am currently pursuing a Bachelor's degree in Computer Engineering at PICT, Pune. I have completed 5 semesters and have taken courses in Data Structures, Algorithms, OOP, DBMS, OS, and Computer Networks.",
     side: "left",
     logo: pict,
   },
   {
-    title: "Bharatiya Jain Sanghatana, Pune",
+    title: "Sadguru Gadge Maharaj College, Karad",
     degree: "Higher Secondary Education - HSC",
     date: "Jun 2021 – Apr 2023",
-    grade: "81.1%",
+    grade: "83%",
     desc:
-      "Completed 12th with 3rd rank in whole college. Gained strong expertise in advanced programming, database management systems, and software development.",
+      "Completed 12th with Distinction, demonstrating strong academic performance and a solid foundation in mathematics.",
     side: "right",
-    logo: bjs,
+    logo: sgm,
   },
   {
-    title: "Holy Spirit Convent School, Pune",
-    degree: "CBSE (X)",
-    date: "Apr 2014 – Apr 2021",
-    grade: "95.27%",
+    title: "Smt. Premalatai Chavan Kanyashala, Malkapur",
+    degree: "SSC (X)",
+    date: "Apr 2016 – Apr 2021",
+    grade: "97%",
     desc:
-      "Completed 10th education being 3rd ranker with Science and Computer Application specialization.",
+      "Achieved 97% in SSC, reflecting strong academic performance and a solid foundation in mathematics, science, and problem-solving skills.",
     side: "left",
     logo: school,
   },

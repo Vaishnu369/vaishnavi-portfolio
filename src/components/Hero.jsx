@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Hero.css";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile2.jpeg";
 
 function Hero() {
     // STATIC FRONTEND DATA
@@ -52,7 +52,7 @@ function Hero() {
                 <p className="pb-hero__intro">Hi, I am</p>
 
                 <h1 className="pb-hero__name">
-                    Anjali Kale
+                    Vaishnavi Kamble
                 </h1>
 
                 <h2 className="pb-hero__role">
@@ -65,7 +65,7 @@ function Hero() {
 
                 <a
                     className="pb-hero__btn"
-                    href="https://drive.google.com/drive/folders/1KfsvJm6wkcXXCT95OmKYiV9C4KZVvbj1"
+                    href="https://drive.google.com/drive/folders/1OuS9lO4BtLxjr2olQjJlU4hGeiipP_mr"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

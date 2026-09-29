@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      <h2 className="footer-name">Anjali Kale</h2>
+      <h2 className="footer-name">Vaishnavi Kamble</h2>
 
       <nav className="footer-nav">
         <a href="#about">About</a>
@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="footer-socials">
         {/* LinkedIn */}
         <a
-          href="https://www.linkedin.com/in/anjali-kale-b87677276/"
+          href="https://www.linkedin.com/in/vaishnavi-kamble-966b95290"
           target="_blank"
           rel="noreferrer"
           aria-label="LinkedIn"
@@ -27,17 +27,6 @@ const Footer = () => {
           </svg>
         </a>
 
-        {/* Instagram */}
-        <a
-          href="https://instagram.com"
-          target="_blank"
-          rel="noreferrer"
-          aria-label="Instagram"
-        >
-          <svg viewBox="0 0 24 24">
-            <path d="M7 2h10c2.76 0 5 2.24 5 5v10c0 2.76-2.24 5-5 5H7c-2.76 0-5-2.24-5-5V7c0-2.76 2.24-5 5-5zm10 2H7c-1.65 0-3 1.35-3 3v10c0 1.65 1.35 3 3 3h10c1.65 0 3-1.35 3-3V7c0-1.65-1.35-3-3-3zm-5 3.5a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11zm0 2a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.75-2.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z" />
-          </svg>
-        </a>
       </div>
     </footer>
   );
